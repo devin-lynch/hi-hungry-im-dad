@@ -62,6 +62,9 @@ export default function Home() {
         >
           fetch joke
         </button>
+        <div className='mt-2'>
+          <a style={{background: 'blue'}} href="http://localhost:3000/jokes">dad's favs</a>
+        </div>
       </div>
     </main>
   )
